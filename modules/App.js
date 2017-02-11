@@ -1,12 +1,14 @@
 import React from 'react'
 import { IndexLink } from 'react-router'
 import NavLink from './NavLink'
+import Header from './Header'
+import Footer from './Footer'
 
 export default React.createClass({
   render() {
     return (
       <div>
-        <h1>Personal Website 0.2</h1>
+        <Header/>
         <ul role="nav">
         	<li><NavLink to="/" onlyActiveOnIndex={true}>Home</NavLink></li>
           <li><NavLink to="/about" activeClassName="active">About</NavLink></li>
@@ -15,7 +17,7 @@ export default React.createClass({
 
         {/* add this */}
         {this.props.children}
-
+        <Footer/>
       </div>
     )
   }
