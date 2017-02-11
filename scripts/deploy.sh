@@ -105,6 +105,32 @@ function deployProd {
 	git checkout develop
 }
 
+function confirmStagingDeploy {
+	echo 'Are you sure you want to do a staging deploy?'
+	select yn in "Yes" "No"; do
+		case $yn in
+	  	"Yes" )
+	    	deployStaging
+	      break;;
+	    "No" )
+	    	exit;;
+	  esac
+	done
+}
+
+function confirmProdDeploy {
+	echo 'Are you sure you want to do a staging deploy?'
+	select yn in "Yes" "No"; do
+		case $yn in
+		 	"Yes" )
+		   	deployStaging
+		     break;;
+		   "No" )
+		   	exit;;
+		 esac
+	done
+}
+
 
 #########################################################################
 # This is the first stuff that happens
@@ -115,9 +141,9 @@ function deployProd {
 key="$1"
 case $key in
 	-staging)
-  deployStaging
+  confirmStagingDeploy
   ;;
   --prod)
-	deployProd
+	confirmProdDeploy
 	;;
 esac
