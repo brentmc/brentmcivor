@@ -119,11 +119,11 @@ function confirmStagingDeploy {
 }
 
 function confirmProdDeploy {
-	echo 'Are you sure you want to do a staging deploy?'
+	echo 'Are you sure you want to do a production deploy?'
 	select yn in "Yes" "No"; do
 		case $yn in
 		 	"Yes" )
-		   	deployStaging
+		   	deployProd
 		     break;;
 		   "No" )
 		   	exit;;
@@ -143,7 +143,7 @@ case $key in
 	-staging)
   confirmStagingDeploy
   ;;
-  --prod)
+  -prod)
 	confirmProdDeploy
 	;;
 esac
