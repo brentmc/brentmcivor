@@ -5,8 +5,8 @@ set -o errexit # Exit on error
 function runTag {
 	tag="$1"
 	tagMsg="$2"
-	git tag -a $tag -m $tagMsg; 
-	git push --tags;
+	git tag -a $tag -m $tagMsg
+	git push --tags
 }
 
 function createTag {
