@@ -7,7 +7,9 @@
   "start": "node server.js",
   "start:dev": "webpack-dev-server --inline --content-base public --history-api-fallback",
   "start:prod": "webpack && node server.js",
-  "build": "webpack"
+  "build": "webpack",
+  "deploy:stage": "./scripts/deploy_staging.sh",
+  "deploy:prod": "./scripts/deploy_prod.sh"
 },
   "author": "",
   "license": "ISC",
