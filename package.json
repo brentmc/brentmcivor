@@ -8,8 +8,8 @@
   "start:dev": "webpack-dev-server --inline --content-base public --history-api-fallback",
   "start:prod": "webpack && node server.js",
   "build": "webpack",
-  "deploy:stage": "sh ./scripts/deploy_staging.sh",
-  "deploy:prod": "sh ./scripts/deploy_prod.sh"
+  "deploy:stage": "sh ./scripts/deploy.sh -staging",
+  "deploy:prod": "sh ./scripts/deploy.sh -prod"
 },
   "author": "",
   "license": "ISC",
