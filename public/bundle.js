@@ -25469,7 +25469,7 @@
 	      _react2.default.createElement(
 	        'h1',
 	        null,
-	        'Personal Website'
+	        'Personal Website 0.1'
 	      ),
 	      _react2.default.createElement(
 	        'ul',
