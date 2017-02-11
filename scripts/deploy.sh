@@ -40,12 +40,20 @@ function deployStaging {
 	echo '--------------------------------'
 	echo 'Preparing Staging Deploy...'
 
+	if [[ -z $(git status -s) ]]
+	then
+	  echo "      All files committed. Ready to build..."
+	else
+	  echo "Please commit/stash all changes before continuing."
+	 exit
+	fi
+
 	echo '   Building bundle.js...'
 	npm run build
 
 	if [[ -z $(git status -s) ]]
 	then
-	  echo "      bundle.js is unchanged. Not need to commit it."
+	  echo "      bundle.js is unchanged. No need to commit it."
 	else
 	  echo "      bundle.js has changed. About to commit it."
 	  git commit -am 'Build'
@@ -67,12 +75,20 @@ function deployProd {
 	git checkout master
 	git merge develop --no-edit # Merge in the master branch without prompting
 
+	if [[ -z $(git status -s) ]]
+	then
+	  echo "      All files committed. Ready to build..."
+	else
+	  echo "Please commit/stash all changes before continuing."
+	 exit
+	fi
+
 	echo '   Building bundle.js...'
 	npm run build
 
 	if [[ -z $(git status -s) ]]
 	then
-	  echo "      bundle.js is unchanged. Not need to commit it."
+	  echo "      bundle.js is unchanged. No need to commit it."
 	else
 	  echo "Uncommited files detected. Make sure you deploy to staging first"
 	  exit
