@@ -9,5 +9,4 @@ if $(git commit -am StagingBuild); then # Commit the changes, if any
 fi
 git push origin develop # Push to git remote develop branch
 git push staging develop:master # Deploy to Staging Heroku
-git checkout master # Checkout master again
 git stash pop # And restore the changes
