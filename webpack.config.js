@@ -15,7 +15,7 @@ require('dotenv').config({
   path: './configs/.env.' + env.ENVIRONMENT
 });
 
-
+// Common settings that will be used for all environments
 const common = {
   entry: './index.js',
 
@@ -34,6 +34,7 @@ const common = {
   }
 };
 
+// Settings for dev watch that will be merged in with common
 if (TARGET === 'watch') {
   module.exports = merge(common, {
     // Add these plugins for dev watch
@@ -43,13 +44,21 @@ if (TARGET === 'watch') {
   });
 }
 
+// Settings for builds that will be merged in with common
 if (TARGET === 'build') {
   module.exports = merge(common, {
     // Add this handful of plugins that optimize the build when we're in production
     plugins: [
       new webpack.optimize.DedupePlugin(),
       new webpack.optimize.OccurrenceOrderPlugin(),
-      new webpack.optimize.UglifyJsPlugin()
+      new webpack.optimize.UglifyJsPlugin({
+        minimize: true,
+        sourceMap: true,
+        compress: {
+          warnings: false
+        },
+        mangle: true
+      })
     ]
   });
 }
