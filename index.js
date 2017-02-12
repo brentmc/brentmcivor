@@ -8,7 +8,7 @@ import Repos from './modules/Repos'
 import Repo from './modules/Repo'
 import Home from './modules/Home'
 
-import 'react-mdl/extra/material.css';
+//import 'react-mdl/extra/material.css'; //Now using Google's MDL because I don't want to use React Layout for now
 import 'react-mdl/extra/material.js';
 
 render((
