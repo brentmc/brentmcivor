@@ -19,6 +19,8 @@ render((
      		<Route path="/repos/:userName/:repoName" component={Repo}/>
      	</Route>	
      	<Route path="/about" component={About}/>
+
+
    	</Route>
   </Router>
 ), document.getElementById('app'))

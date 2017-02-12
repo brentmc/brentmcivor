@@ -1,25 +1,38 @@
 import React from 'react'
 
+import { Header } from 'react-mdl';
+
 export default React.createClass({
   render() {
     return (
-	   	<header id="site-header" role="banner" class="text-center">
-				<section id="branding">
-					<h1>
-						<a href="http://www.brentmcivor.com/"><strong >Brent McIvor</strong></a>
+    	<div>
+    	<Header waterfall>
+
+    	</Header>
+
+
+
+	   	<header className="branding center">
+
+				<section>
+					<h1 className="branding-name">
+						<strong>Brent McIvor</strong>
 					</h1>
+				
+
+				<h3 className='branding-role'>Games and Content Developer</h3>
 				</section>
-				<h2>
-					<a href="http://www.brentmcivor.com" title="Brent McIvor" rel="home">Game Developer</a>
-				</h2>
+
+				<hr width='100%' className="branding-divider center"/>
 
 				<nav id="menu" role="navigation">
-					<ul class="site-menu">
-						<li class="github"><a target="_blank" href="https://github.com/brentmc">GitHub</a></li>
-						<li class="linkedin"><a target="_blank" href="www.linkedin.com/in/brentmcivor">LinkedIn</a></li>
+					<ul className="site-menu">
+						<li className="github"><a target="_blank" href="https://github.com/brentmc">GitHub</a></li>
+						<li className="linkedin"><a target="_blank" href="http://www.linkedin.com/in/brentmcivor">LinkedIn</a></li>
 					</ul>
 				</nav>
 			</header>    
+			</div>
     )
   }
 })
