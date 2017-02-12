@@ -14,7 +14,7 @@ export default React.createClass({
       <Footer className="center" size="mega">
       	<FooterSection type="middle">
 	      	<div style={{width: '130px', margin: 'auto'}}>
-				    <Grid className="demo-grid-ruler">
+				    <Grid>
 				        <Cell col={6}>
 				        	<a target="_blank" href="https://github.com/brentmc" className='socialBtn socialBtn-github'>
 	            			<img src='./images/social/github.png' alt='GitHub'/>
