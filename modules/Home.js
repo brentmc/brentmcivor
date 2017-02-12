@@ -1,7 +1,16 @@
 import React from 'react'
+import ExamplesHeader from './ExamplesHeader' 
+import ExampleCard from './games/ExampleCard' 
+import StubmunkMC from './games/StubmunkMC' 
 
-export default React.createClass({
-  render() {
-    return <div>Home</div>
-  }
-})
+const Home = (props) => {
+	return (
+ 	 <div>
+ 	 		<ExamplesHeader/>
+ 	 		<ExampleCard/>
+ 	 		<StubmunkMC/>
+ 	 </div>
+  )
+}	
+
+export default Home
