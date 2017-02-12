@@ -53,6 +53,10 @@ a:active{
 
 }
 
+.socialBtn.img{
+	width:20px;
+	height:20px;
+}
 
 .debug{
 	border-color: red;

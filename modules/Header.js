@@ -1,6 +1,10 @@
 import React from 'react'
 
-import { Header } from 'react-mdl';
+import { 
+	Header,
+	Grid,
+	Cell
+} from 'react-mdl';
 
 export default React.createClass({
   render() {
@@ -25,12 +29,20 @@ export default React.createClass({
 
 				<hr width='100%' className="branding-divider center"/>
 
-				<nav id="menu" role="navigation">
-					<ul className="site-menu">
-						<li className="github"><a target="_blank" href="https://github.com/brentmc">GitHub</a></li>
-						<li className="linkedin"><a target="_blank" href="http://www.linkedin.com/in/brentmcivor">LinkedIn</a></li>
-					</ul>
-				</nav>
+				<div style={{width: '130px', margin: 'auto'}}>
+				    <Grid className="demo-grid-ruler">
+				        <Cell col={6}>
+				        	<a target="_blank" href="https://github.com/brentmc" className='socialBtn socialBtn-github'>
+	            			<img src='./images/social/github.png' alt='GitHub'/>
+	            		</a>
+	            	</Cell>
+				        <Cell col={6}>
+				        	<a target="_blank" href="http://www.linkedin.com/in/brentmcivor" className='socialBtn socialBtn-linkedIn'>
+	            			<img src='./images/social/linkedin.png' alt='LinkedIn'/>
+	            		</a>
+	            	</Cell>
+				    </Grid>	   
+					</div>
 			</header>    
 			</div>
     )
