@@ -1,11 +1,9 @@
 import React from 'react'
-import ExamplesHeader from './ExamplesHeader' 
 import ExampleCard from './ExampleCard' 
 
 const Home = (props) => {
 	return (
  	 <div>
- 	 		<ExamplesHeader/>
  	 		<ExampleCard 
  	 			thumbTitle='Feed Word Monster'
  	 			thumbURL='https://placeholdit.imgix.net/~text?txtsize=33&bg=4180c7&txt=FeedWordMonste32&w=500&h=281'
