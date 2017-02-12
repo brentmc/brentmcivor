@@ -13,24 +13,24 @@ const Home = (props) => {
 	return (
 		<div style={{width: '100%', margin: 'auto'}}>
     	<Grid>		 		
-			 	<ExampleCard thumbTitle='Feed Word Monster'/>
-		 		<ExampleCard thumbTitle='Stubmunk Multiple Choice'/>
-		 		<ExampleCard thumbTitle='Stubmunk Sentence'/>
+			 	<ExampleCard thumbTitle='Feed Word Monster' thumb='feedwordmonster'/>
+		 		<ExampleCard thumbTitle='Stubmunk Multiple Choice' thumb='stubmunkmultiplechoice'/>
+		 		<ExampleCard thumbTitle='Stubmunk Sentence' thumb='stubmunksentence'/>
 			</Grid>
 			<Grid>		 		
-			 	<ExampleCard thumbTitle='Sight Words App'/>
-		 		<ExampleCard thumbTitle='LiteracyPlanet App'/>
-		 		<ExampleCard thumbTitle='Word Mania App'/>
+			 	<ExampleCard thumbTitle='Sight Words App' thumb='sightwordsapp'/>
+		 		<ExampleCard thumbTitle='LiteracyPlanet App' thumb='literacyplanetapp'/>
+		 		<ExampleCard thumbTitle='Word Mania App' thumb='wordmaniaapp'/>
 			</Grid>
 			<Grid>		 		
-			 	<ExampleCard thumbTitle='Turtle Knock'/>
-		 		<ExampleCard thumbTitle="Penpen's Express"/>
-		 		<ExampleCard thumbTitle='Sheep Bounce'/>
+			 	<ExampleCard thumbTitle='Turtle Knock' thumb='turtleknock'/>
+		 		<ExampleCard thumbTitle="Penpen's Express" thumb='penpen'/>
+		 		<ExampleCard thumbTitle='Sheep Bounce' thumb='sheepbounce'/>
 			</Grid>
 			<Grid>		 		
-			 	<ExampleCard thumbTitle='Block Stack'/>
-		 		<ExampleCard thumbTitle='Word Mania Multiplayer'/>
-		 		<ExampleCard thumbTitle='Donkey Dash'/>
+			 	<ExampleCard thumbTitle='Block Stack' thumb='blockstack'/>
+		 		<ExampleCard thumbTitle='Word Mania Multiplayer' thumb='wordmaniamultiplayer'/>
+		 		<ExampleCard thumbTitle='Donkey Dash' thumb='donkeydash'/>
 			</Grid>
 			<Grid>		 		
 			 	<ExampleCard thumbTitle='Treasure Crab'/>
@@ -50,10 +50,10 @@ const Home = (props) => {
 			<Grid>		 	
 				<ExampleCard thumbTitle='Quests'/>				 	
 		 		<ExampleCard thumbTitle='Shop'/>
-		 		<ExampleCard thumbTitle='Prize Wheel'/>		 		
+		 		<ExampleCard thumbTitle='Prize Wheel' thumb='prizewheel'/>		 		
 			</Grid>
 			<Grid>		 	
-				<ExampleCard thumbTitle='Spelling 01'/>				 	
+				<ExampleCard thumbTitle='Spelling 01' thumb='spelling01'/>		 	
 		 		<ExampleCard thumbTitle='Spelling 02'/>
 		 		<ExampleCard thumbTitle='Spelling 03'/>		 		
 			</Grid>
@@ -78,9 +78,7 @@ const Home = (props) => {
 		 		<ExampleCard thumbTitle='Compre ICE'/>			 		
 			</Grid>
 			<Grid>		 	
-				<ExampleCard thumbTitle='Books'/>				 	
-		 		<ExampleCard thumbTitle='Spelling 02'/>
-		 		<ExampleCard thumbTitle='Spelling 03'/>			 		
+				<ExampleCard thumbTitle='Books' thumb='books'/>
 			</Grid>
  	 </div>
   )

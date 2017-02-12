@@ -12,7 +12,7 @@ import {
   Cell
 } from 'react-mdl';
 
-let instanceCount = 0
+let colourCount = 0
 let coloursAr = [
   'fbac35',
   '734e7e',
@@ -22,12 +22,19 @@ let coloursAr = [
 ]
 
 const ExampleCard = (props) => {
-  instanceCount++
+  
+  let thumbURL
+  if(props.thumb){
+    thumbURL = './images/thumbs/' + props.thumb + '.jpeg'
+  }else{
+    let colour = coloursAr[colourCount % coloursAr.length]
+    let thumbLabel = escape(props.thumbTitle)
+    thumbURL = 'https://placeholdit.imgix.net/~text?txtsize=33&bg='+colour+'&txt='+thumbLabel+'&w=500&h=281'
+    colourCount++
+  }
 
+  //console.log(thumbURL)
 
-  let colour = coloursAr[instanceCount % coloursAr.length]
-  let thumbLabel = escape(props.thumbTitle)
-  let thumbURL = 'https://placeholdit.imgix.net/~text?txtsize=33&bg='+colour+'&txt='+thumbLabel+'&w=500&h=281'
   let caption = props.thumbTitle + ' caption Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
   let moreInfoURL = 'http://www.brentmcivor.com'
 
