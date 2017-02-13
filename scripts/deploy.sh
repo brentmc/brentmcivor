@@ -11,14 +11,12 @@ function runTag {
 }
 
 function createTag {
-	releaseType="$1" #-staging or -prod
-
 	DATE=`date +%Y-%m-%d`
 
-	echo "What revision is this for "$DATE"? (e.g. a, b, c):"
+	echo "What revision is this for "$DATE"? (e.g. a, b-dev, c):"
 	read revision
 
-	tag=$DATE$revision$releaseType
+	tag=$DATE$revision
 
 	echo "Enter tag message:"
 	read tagMsg
@@ -59,7 +57,7 @@ function deployStaging {
 	  git commit -am 'Build'
 	fi
 
-	createTag '-staging'
+	createTag
 
 	echo "   Pushing to git remote develop..."
 	git push origin develop
@@ -94,7 +92,7 @@ function deployProd {
 	  exit
 	fi
 
-	createTag '-prod'
+	createTag
 
 	echo "   Pushing to git remote master..."
 	git push origin master
