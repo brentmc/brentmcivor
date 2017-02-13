@@ -3,7 +3,7 @@
 ## Dev Live Reload
 From develop branch
 
-    npm run start:dev
+    npm run watch
 [Dev App can be found here](https://localhost:8080)
 
 ----
