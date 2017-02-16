@@ -21,7 +21,7 @@ let coloursAr = [
   'de5454'
 ]
 
-const ExampleCard = (props) => {
+const ProjectCard = (props) => {
   
   let thumbURL
   if(props.thumb){
@@ -54,4 +54,4 @@ const ExampleCard = (props) => {
   )
 }	
 
-export default ExampleCard
+export default ProjectCard
