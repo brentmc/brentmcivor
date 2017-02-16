@@ -1,5 +1,7 @@
 import React from 'react'
 
+import NavLink from './NavLink'
+
 import { 
 	Header,
 	Grid,
@@ -11,7 +13,11 @@ export default React.createClass({
     return (
     	<div>
     	<Header waterfall>
-
+				<ul role="nav">
+        	<li><NavLink to="/" onlyActiveOnIndex={true}>Home</NavLink></li>
+          <li><NavLink to="/feedwordmonster" activeClassName="active">Feed Word Monster</NavLink></li>
+					<li><NavLink to="/stubmunksentence" activeClassName="active">Stubmunk Sentence</NavLink></li>
+        </ul>
     	</Header>
 
 
