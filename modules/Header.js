@@ -21,16 +21,19 @@ export default React.createClass({
     	</Header>
 
 
-
-	   	<header className="branding center">
-
-				<section>
+	   	<header className="branding center">	   	
+				<section>					
 					<h1 className="branding-name">
-						<strong>Brent McIvor</strong>
-					</h1>
-				
+						<a href='/'>
+							<strong>Brent McIvor</strong>
+						</a>
+					</h1>		
 
-				<h3 className='branding-role'>Games and Content Developer</h3>
+					<h3 className='branding-role'>
+						<a href='/'>
+							Games and Content Developer
+						</a>
+					</h3>
 				</section>
 
 				<hr width='100%' className="branding-divider center"/>
