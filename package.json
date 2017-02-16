@@ -4,7 +4,7 @@
   "description": "Brent McIvor Personal Website",
   "main": "index.js",
   "scripts": {
-    "watch": " webpack-dev-server --inline --content-base public --history-api-fallback",
+    "watch": " webpack-dev-server --inline --content-base public --history-api-fallback --host 0.0.0.0",
     "start": "node server.js",
     "build": "webpack",
     "deploy:stage": "sh ./scripts/deploy.sh -staging",
