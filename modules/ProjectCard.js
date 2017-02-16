@@ -36,21 +36,23 @@ const ProjectCard = (props) => {
   //console.log(thumbURL)
 
   let caption = props.thumbTitle + ' caption Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
-  let moreInfoURL = 'http://www.brentmcivor.com'
+  let link = props.link ? props.link : '/'
 
   return (
-    <Cell col={4} tablet={12} phone={12}>
-    	<Card shadow={0} style={{width: '512px', margin: 'auto'}}>
-        <CardTitle style={{color: '#fff', height: '281px', background: 'url('+thumbURL+') center / cover'}}>{props.thumbTitle}</CardTitle>
-        <CardText>{caption}</CardText>
-        <CardActions border>
-            <Button colored><a href={moreInfoURL}>More Info</a></Button>
-        </CardActions>
-        <CardMenu style={{color: '#fff'}}>
-            <IconButton name="share" />
-        </CardMenu>
-      </Card>
-    </Cell>
+    <a href={link}>
+      <Cell col={4} tablet={12} phone={12}>
+      	<Card className='projectCard' shadow={0} style={{width: '512px', margin: 'auto'}}>
+          <CardTitle className='projectCard-image projectCard-title' style={{color: '#fff', height: '281px', background: 'url('+thumbURL+') center / cover'}}>{props.thumbTitle}</CardTitle>
+          <CardText className='projectCard-caption'>{caption}</CardText>
+          <CardActions border>
+              <Button colored>More Info</Button>
+          </CardActions>
+          <CardMenu style={{color: '#fff'}}>
+              <IconButton name="share" />
+          </CardMenu>
+        </Card>
+      </Cell>
+    </a>
   )
 }	
 

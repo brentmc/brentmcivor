@@ -13,9 +13,9 @@ const Home = (props) => {
 	return (
 		<div style={{width: '100%', margin: 'auto'}}>
     	<Grid>		 		
-			 	<ProjectCard thumbTitle='Feed Word Monster' thumb='feedwordmonster'/>
+			 	<ProjectCard thumbTitle='Feed Word Monster' thumb='feedwordmonster' link='feedwordmonster'/>
 		 		<ProjectCard thumbTitle='Stubmunk Multiple Choice' thumb='stubmunkmultiplechoice'/>
-		 		<ProjectCard thumbTitle='Stubmunk Sentence' thumb='stubmunksentence'/>
+		 		<ProjectCard thumbTitle='Stubmunk Sentence' thumb='stubmunksentence' link='stubmunksentence'/>
 			</Grid>
 			<Grid>		 		
 			 	<ProjectCard thumbTitle='Sight Words App' thumb='sightwordsapp'/>
