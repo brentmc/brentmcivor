@@ -40,7 +40,7 @@ const ProjectCard = (props) => {
 
   return (
     <a href={link}>
-      <Cell col={4} tablet={12} phone={12}>
+      <Cell col={4} tablet={6} phone={12}>
       	<Card className='projectCard' shadow={0} style={{width: '512px', margin: 'auto'}}>
           <CardTitle className='projectCard-image projectCard-title' style={{color: '#fff', height: '281px', background: 'url('+thumbURL+') center / cover'}}>{props.thumbTitle}</CardTitle>
           <CardText className='projectCard-caption'>{caption}</CardText>
