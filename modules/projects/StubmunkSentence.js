@@ -1,18 +1,24 @@
 import React from 'react'
 import ProjectTemplate from './ProjectTemplate'
 
+import {ORANGE} from './ProjectConsts'
 
-export default React.createClass({
+const StubmunkSentence = props => {
 	//let orange = ORANGE
 
-  render() {
-    return <ProjectTemplate 
-    	{...this.props} 
-    	title='Stubmunk Sentence' 
-    	videoURL="https://www.youtube.com/embed/nkEzRX8fLxo" 
-    	>
+	console.log('ORANGE', ORANGE)
 
-    	<div>SS</div>
-    </ProjectTemplate>
-  }
-})
+  return (
+  	<ProjectTemplate 
+	   	{...props} 
+	   	title='Stubmunk Sentence' 
+	   	videoURL="https://www.youtube.com/embed/nkEzRX8fLxo" 
+	   	bgColour = {ORANGE}
+	 	>
+
+  	<div>SS</div>
+   </ProjectTemplate>
+  )
+}
+
+export default StubmunkSentence
