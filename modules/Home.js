@@ -13,18 +13,24 @@ import {
 
 const createProjectCard = (thumbTitle, thumb) => {
 	return (
-		<ProjectCard key={thumb} thumbTitle={thumbTitle} thumb={thumb}/>
+		<ProjectCard className='debug' key={thumb} thumbTitle={thumbTitle} thumb={thumb}/>
 	)
 }
 
 const Home = (props) => {
 	return (
-		<div >
-			<Grid style={{width: '100%', margin: 'auto'}}>
-				{projectsAr.map(project => { 
-					return createProjectCard(project.thumbTitle, project.thumb)
-				})}
-			</Grid>
+		<div className='debug' >
+			<Grid  >
+			{projectsAr.map(project => {
+				return (
+					<Cell key={project.title} className='debug' col={4} tablet={12} phone={12}>
+						<ProjectCard className='debug' key={project.thumb} thumbTitle={project.thumbTitle} thumb={project.thumb}/>
+					</Cell>
+				)
+			})}
+			</Grid>	
+
+ 
 		</div>
 	);
 }	

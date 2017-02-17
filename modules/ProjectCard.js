@@ -9,7 +9,8 @@ import {
   CardActions,
   CardMenu,
   IconButton,
-  Cell
+  Cell,
+  Tile
 } from 'react-mdl';
 
 let colourCount = 0
@@ -39,10 +40,10 @@ const ProjectCard = (props) => {
   let link = props.link ? props.link : '/'
 
   return (
-    <a href={link}>
-      <Cell col={4} tablet={6} phone={12}>
-      	<Card className='projectCard' shadow={0} style={{width: '512px', margin: 'auto'}}>
-          <CardTitle className='projectCard-image projectCard-title' style={{color: '#fff', height: '281px', background: 'url('+thumbURL+') center / cover'}}>{props.thumbTitle}</CardTitle>
+    <a href={link} >
+
+      	<Card className='projectCard' shadow={0} style={{width: '100%'}} >
+          <CardTitle className='projectCard-image projectCard-title' style={{color: '#fff', height:'281px', background: 'url('+thumbURL+') center / cover'}}>{props.thumbTitle}</CardTitle>
           <CardText className='projectCard-caption'>{caption}</CardText>
           <CardActions border>
               <Button colored>More Info</Button>
@@ -51,7 +52,7 @@ const ProjectCard = (props) => {
               <IconButton name="share" />
           </CardMenu>
         </Card>
-      </Cell>
+
     </a>
   )
 }	
