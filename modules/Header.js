@@ -1,7 +1,4 @@
 import React from 'react'
-
-import NavLink from './NavLink'
-
 import { 
 	Header,
 	Grid,
