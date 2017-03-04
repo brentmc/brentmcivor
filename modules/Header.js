@@ -30,13 +30,13 @@ export default React.createClass({
 					<hr width='100%' className="branding-divider center"/>
 
 					<div style={{width: '130px', margin: 'auto'}}>
-						<Grid className="demo-grid-ruler">
-							<Cell col={6}>
+						<Grid>
+							<Cell col={6} tablet={4} phone={2}>
 								<a target="_blank" href="https://github.com/brentmc" className='socialBtn socialBtn-github'>
 									<img src='./images/social/github.png' alt='GitHub'/>
 								</a>
 							</Cell>
-							<Cell col={6}>
+							<Cell col={6} tablet={4} phone={2}>
 								<a target="_blank" href="http://www.linkedin.com/in/brentmcivor" className='socialBtn socialBtn-linkedIn'>
 									<img src='./images/social/linkedin.png' alt='LinkedIn'/>
 								</a>

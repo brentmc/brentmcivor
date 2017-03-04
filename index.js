@@ -5,7 +5,7 @@ import { Router, Route, browserHistory, IndexRoute } from 'react-router'
 import App from './modules/App'
 import Home from './modules/Home'
 
-import FeedWordMonster from './modules/projects/FeedWordMonster'
+import FeedWordMonster from './modules/projects/feedwordmonster/FeedWordMonster'
 import StubmunkSentence from './modules/projects/StubmunkSentence'
 
 

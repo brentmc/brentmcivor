@@ -6,13 +6,13 @@ export const projectsAr = [
 	},
 	{
 		thumbTitle:'Stubmunk Multiple Choice',
-		thumb:'stubmunkmultiplechoice',
+	//	thumb:'stubmunkmultiplechoice',
 		//link:'stubmunkmultiplechoice'
 	},
 	{
 		thumbTitle:'Stubmunk Sentence',
-		thumb:'stubmunksentence',
-		link:'stubmunksentence'
+	//	thumb:'stubmunksentence',
+	//	link:'stubmunksentence'
 	},
 	{
 		thumbTitle:'Sight Words App',

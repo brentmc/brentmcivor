@@ -26,7 +26,7 @@ const ProjectCard = (props) => {
   
   let thumbURL
   if(props.thumb){
-    thumbURL = './images/thumbs/' + props.thumb + '.jpeg'
+    thumbURL = './images/' + props.thumb + '/' + props.thumb + '_thumb.jpeg'
   }else{
     let colour = coloursAr[colourCount % coloursAr.length]
     let thumbLabel = escape(props.thumbTitle)
@@ -34,23 +34,25 @@ const ProjectCard = (props) => {
     colourCount++
   }
 
+  console.log(thumbURL)
+
   let caption = props.thumbTitle + ' caption Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
   let link = props.link ? props.link : '/'
+  let skills = ['Entity Component System', 'ActionScript 3', 'JavaScript', 'iOS', 'Android', 'Browser', 'PixiJS', 'Cordova'].join(', ')
 
   return (
-    <a href={link} >
-
-      	<Card className='projectCard' shadow={0} style={{width: '100%'}} >
-          <CardTitle className='projectCard-image projectCard-title' style={{color: '#fff', height:'281px', background: 'url('+thumbURL+') center / cover'}}>{props.thumbTitle}</CardTitle>
-          <CardText className='projectCard-caption'>{caption}</CardText>
-          <CardActions border>
-              <Button colored>More Info</Button>
-          </CardActions>
-          <CardMenu style={{color: '#fff'}}>
-              <IconButton name="share" />
-          </CardMenu>
-        </Card>
-
+    <a href={link}>
+      <Card className='projectCard' shadow={0} style={{width: '100%'}}>
+        <CardTitle className='projectCard-image projectCard-title' style={{color: '#fff', height:'281px', background: 'url('+thumbURL+') center / cover'}}/>
+        <CardText>
+          <div className='projectCard-title' style={{'font-size':'17px', 'text-transform':'uppercase'}}><strong>{props.thumbTitle}</strong></div>
+          <div className='projectCard-skills' style={{'font-size':'10px', 'font-weight':'300', 'color':'#999999', 'line-height':'-10px'}}>{skills}</div>
+          <div className='projectCard-caption'>{caption}</div>
+        </CardText>
+        <CardActions>
+          <Button colored>More Info</Button>
+        </CardActions>
+      </Card>
     </a>
   )
 }	
