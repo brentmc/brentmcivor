@@ -1,201 +1,201 @@
 export const projectsAr = [
 	{
-		thumbTitle:'Feed Word Monster',
+		title:'Feed Word Monster',
 		thumb:'feedwordmonster',
 		link:'feedwordmonster'
 	},
 	{
-		thumbTitle:'Stubmunk Multiple Choice',
+		title:'Stubmunk Multiple Choice',
 	//	thumb:'stubmunkmultiplechoice',
 		//link:'stubmunkmultiplechoice'
 	},
 	{
-		thumbTitle:'Stubmunk Sentence',
+		title:'Stubmunk Sentence',
 	//	thumb:'stubmunksentence',
 	//	link:'stubmunksentence'
 	},
 	{
-		thumbTitle:'Sight Words App',
+		title:'Sight Words App',
 		//thumb:'sightwordsapp',
 		//link:'sightwordsapp'
 	},
 	{
-		thumbTitle:'LiteracyPlanet App',
+		title:'LiteracyPlanet App',
 		//thumb:'literacyplanetapp',
 		//link:'literacyplanetapp'
 	},
 	{
-		thumbTitle:'Word Mania App',
+		title:'Word Mania App',
 		//thumb:'wordmaniaapp',
 		//link:'wordmaniaapp'
 	},
 	{
-		thumbTitle:'Turtle Knock',
+		title:'Turtle Knock',
 		//thumb:'turtleknock',
 		//link:'turtleknock'
 	},
 	{
-		thumbTitle:"Penpen's Express",
+		title:"Penpen's Express",
 		//thumb:'penpen',
 		//link:'penpen'
 	},		
 	{
-		thumbTitle:'Sheep Bounce',
+		title:'Sheep Bounce',
 		//thumb:'sheepbounce',
 		//link:'sheepbounce'
 	},
 	{
-		thumbTitle:'Block Stack',
+		title:'Block Stack',
 		//thumb:'blockstack',
 		//link:'blockstack'
 	},
 	{
-		thumbTitle:'Word Mania Multiplayer',
+		title:'Word Mania Multiplayer',
 		//thumb:'wordmaniamultiplayer',
 		//link:'wordmaniamultiplayer'
 	},
 	{
-		thumbTitle:'Donkey Dash',
+		title:'Donkey Dash',
 		//thumb:'donkeydash',
 		//link:'donkeydash'
 	},	
 	{
-		thumbTitle:'Treasure Crab',
+		title:'Treasure Crab',
 		//thumb:'treasurecrab',
 		//link:'treasurecrab'
 	},
 	{
-		thumbTitle:'Whack A Pirate',
+		title:'Whack A Pirate',
 		//thumb:'whackapirate',
 		//link:'whackapirate'
 	},	
 	{
-		thumbTitle:'Breakout Penguin',
+		title:'Breakout Penguin',
 		//thumb:'breakoutpenguin',
 		//link:'breakoutpenguin'
 	},	
 	{
-		thumbTitle:'Word Mania Aus 2012',
+		title:'Word Mania Aus 2012',
 		//thumb:'wordmaniaau12',
 		//link:'wordmaniaau12'
 	},
 	{
-		thumbTitle:'Word Mania Aus 2013',
+		title:'Word Mania Aus 2013',
 		//thumb:'wordmaniaau13',
 		//link:'wordmaniaau13'
 	},	
 	{
-		thumbTitle:'Word Mania Malaysia 2014',
+		title:'Word Mania Malaysia 2014',
 		//thumb:'wordmaniamy14',
 		//link:'wordmaniamy14'
 	},
 	{
-		thumbTitle:'Word Mania Aus 2015',
+		title:'Word Mania Aus 2015',
 		//thumb:'wordmaniaau15',
 		//link:'wordmaniaau15'
 	},
 	{
-		thumbTitle:'Word Mania Aus 2016',
+		title:'Word Mania Aus 2016',
 		//thumb:'wordmaniaau16',
 		//link:'wordmaniaau16'
 	},
 	{		
-		thumbTitle:'Word Mania UK 2017',
+		title:'Word Mania UK 2017',
 		//thumb:'wordmaniauk17',
 		//link:'wordmaniauk17'
 	},
 	{
-		thumbTitle:'Quests',
+		title:'Quests',
 		//thumb:'quests',
 		//link:'quests'
 	},	
 	{
-		thumbTitle:'Shop',
+		title:'Shop',
 		//thumb:'shop',
 		//link:'shop'
 	},	
 	{
-		thumbTitle:'Prize Wheel',
+		title:'Prize Wheel',
 		//thumb:'prizewheel',
 		//link:'prizewheel'
 	},	
 	{
-		thumbTitle:'Spelling 01',
+		title:'Spelling 01',
 		//thumb:'spelling01',
 		//link:'spelling01'
 	},
 	{
-		thumbTitle:'Spelling 02',
+		title:'Spelling 02',
 		//thumb:'spelling02',
 		//link:'spelling02'
 	},
 	{
-		thumbTitle:'Spelling 03',
+		title:'Spelling 03',
 		//thumb:'spelling03',
 		//link:'spelling03'
 	},
 	{
-		thumbTitle:'Spelling 04',
+		title:'Spelling 04',
 		//thumb:'spelling04',
 		//link:'spelling04'
 	},
 	{
-		thumbTitle:'Spelling 05',
+		title:'Spelling 05',
 		//thumb:'spelling05',
 		//link:'spelling05'
 	},
 	{
-		thumbTitle:'Spelling 06',
+		title:'Spelling 06',
 		//thumb:'spelling06',
 		//link:'spelling06'
 	},
 	{
-		thumbTitle:'Spelling 07',
+		title:'Spelling 07',
 		//thumb:'spelling07',
 		//link:'spelling07'
 	},
 	{
-		thumbTitle:'Spelling 08',
+		title:'Spelling 08',
 		//thumb:'spelling08',
 		//link:'spelling08'
 	},
 	{
-		thumbTitle:'Spelling 09',
+		title:'Spelling 09',
 		//thumb:'spelling09',
 		//link:'spelling09'
 	},
 	{
-		thumbTitle:'Spelling 10',
+		title:'Spelling 10',
 		//thumb:'spelling10',
 		//link:'spelling10'
 	},
 	{
-		thumbTitle:'Spelling 11',
+		title:'Spelling 11',
 		//thumb:'spelling11',
 		//link:'spelling11'
 	},
 	{
-		thumbTitle:'Spelling 12',
+		title:'Spelling 12',
 		//thumb:'spelling12',
 		//link:'spelling12'
 	},
 	{
-		thumbTitle:'Spelling 13',
+		title:'Spelling 13',
 		//thumb:'spelling13',
 		//link:'spelling13'
 	},
 	{
-		thumbTitle:'Spelling 14',
+		title:'Spelling 14',
 		//thumb:'spelling14',
 		//link:'spelling14'
 	},
 	{
-		thumbTitle:'Compre ICE',
+		title:'Compre ICE',
 		//thumb:'comprehension',
 		//link:'comprehension'
 	},
 	{
-		thumbTitle:'Books',
+		title:'Books',
 		//thumb:'books',
 		//link:'books'
 	}

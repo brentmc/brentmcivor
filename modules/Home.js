@@ -20,7 +20,7 @@ const Home = (props) => {
 				{projectsAr.map(project => {
 					return (
 						<Cell className='' key={project.title} col={4} tablet={4} phone={4}>
-							<ProjectCard key={project.thumb} thumbTitle={project.thumbTitle} thumb={project.thumb}/>
+							<ProjectCard key={project.thumb} project={project}/>
 						</Cell>
 						)
 				})}
