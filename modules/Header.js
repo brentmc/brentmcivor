@@ -43,11 +43,6 @@ const dividerStyle = {
 	borderBottom: '1px solid rgba(255, 255, 255, 1)',
 }
 
-const socialBtnStyle = {
-	width:'20px',
-	height:'20px',
-}
-
 const SocialBtn = ({link, img, alt}) => {
 	return (
 		<Cell col={6} tablet={4} phone={2}>
