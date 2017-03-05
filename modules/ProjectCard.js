@@ -14,13 +14,39 @@ import {
 } from 'react-mdl';
 
 let colourCount = 0
-let coloursAr = [
+const coloursAr = [
   'fbac35',
   '734e7e',
   '4180c7',
   '9ccf27',
   'de5454'
 ]
+
+const containerStyle = {
+  width: '100%'
+}
+
+const getImageStyle = (thumbURL) => ({
+ height:'281px',
+ background: 'url('+thumbURL+') center / cover'
+})
+
+const titleStyle = {
+  fontSize:'17px', 
+  textTransform:'uppercase'
+}
+
+const skillsStyle = {
+  fontSize:'10px', 
+  fontWeight:'300', 
+  color:'#999999', 
+  lineHeight:'-10px'
+}
+
+const captionStyle = {
+  lineHeight: '20px',
+  marginTop: '20px',
+}
 
 const ProjectCard = ({project}) => {
   let thumbURL
@@ -45,12 +71,12 @@ const ProjectCard = ({project}) => {
 
   return (
     <a href={link}>
-      <Card className='projectCard' shadow={0} style={{width: '100%'}}>
-        <CardTitle className='projectCard-image projectCard-title' style={{color: '#fff', height:'281px', background: 'url('+thumbURL+') center / cover'}}/>
+      <Card shadow={0} style={containerStyle}>
+        <CardTitle style={getImageStyle(thumbURL)}/>
         <CardText>
-          <div className='projectCard-title' style={{'font-size':'17px', 'text-transform':'uppercase'}}><strong>{title}</strong></div>
-          <div className='projectCard-skills' style={{'font-size':'10px', 'font-weight':'300', 'color':'#999999', 'line-height':'-10px'}}>{skills}</div>
-          <div className='projectCard-caption'>{caption}</div>
+          <div style={titleStyle}><strong>{title}</strong></div>
+          <div style={skillsStyle}>{skills}</div>
+          <div style={captionStyle}>{caption}</div>
         </CardText>
         <CardActions>
           <Button colored>More Info</Button>

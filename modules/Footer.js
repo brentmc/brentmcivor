@@ -8,6 +8,21 @@ import {
 	Cell
 } from 'react-mdl';
 
+const socialBtnStyle = {
+	width:'20px',
+	height:'20px',
+}
+
+const SocialBtn = ({link, img, alt}) => {
+	return (
+		<Cell col={6} tablet={4} phone={2}>
+			<a target="_blank" href={link} style={socialBtnStyle}>
+	    	<img src={img} alt={alt}/>
+	    </a>
+	  </Cell>
+	)
+}
+
 export default React.createClass({
   render() {
     return (
@@ -15,16 +30,16 @@ export default React.createClass({
       	<FooterSection type="middle">
 	      	<div style={{width: '130px', margin: 'auto'}}>
 				    <Grid>
-				        <Cell col={6}>
-				        	<a target="_blank" href="https://github.com/brentmc" className='socialBtn socialBtn-github'>
-	            			<img src='./images/social/github.png' alt='GitHub'/>
-	            		</a>
-	            	</Cell>
-				        <Cell col={6}>
-				        	<a target="_blank" href="http://www.linkedin.com/in/brentmcivor" className='socialBtn socialBtn-linkedIn'>
-	            			<img src='./images/social/linkedin.png' alt='LinkedIn'/>
-	            		</a>
-	            	</Cell>
+				    	<SocialBtn 
+				    		link='https://github.com/brentmc' 
+				    		img='./images/social/github.png' 
+				    		alt='GitHub'
+				    	/>
+				    	<SocialBtn 
+				    		link='http://www.linkedin.com/in/brentmcivor' 
+				    		img='./images/social/linkedin.png' 
+				    		alt='LinkedIn'
+				    	/>
 				    </Grid>	   
 					</div>
       	</FooterSection>

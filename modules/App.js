@@ -8,7 +8,7 @@ export default React.createClass({
     return (
       <div>
         
-        <Header/>
+        
 
         {/* add this */}
         {this.props.children}

@@ -15,17 +15,20 @@ import {
 
 const Home = (props) => {
 	return (
-		<div style ={{width:'100%', margin:'auto'}} className=''>
-			<Grid className=''>
-				{projectsAr.map(project => {
-					return (
-						<Cell className='' key={project.title} col={4} tablet={4} phone={4}>
-							<ProjectCard key={project.thumb} project={project}/>
-						</Cell>
-						)
-				})}
-			</Grid>		
-		</div>	
+		<div>
+			<Header/>
+			<div style ={{width:'100%', margin:'auto'}}>
+				<Grid>
+					{projectsAr.map(project => {
+						return (
+							<Cell key={project.title} col={4} tablet={4} phone={4}>
+								<ProjectCard key={project.thumb} project={project}/>
+							</Cell>
+							)
+					})}
+				</Grid>		
+			</div>	
+		</div>
 	);
 }	
 
