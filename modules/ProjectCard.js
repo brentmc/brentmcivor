@@ -51,7 +51,7 @@ const captionStyle = {
 const ProjectCard = ({project}) => {
   let thumbURL
   if(project.thumb){
-    thumbURL = './images/' + project.thumb + '/' + project.thumb + '_thumb.jpeg'
+    thumbURL = './images/projects/' + project.thumb + '/' + project.thumb + '_thumb.jpeg'
   }else{
     let colour = coloursAr[colourCount % coloursAr.length]
     let thumbLabel = escape(project.title)

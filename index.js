@@ -6,7 +6,7 @@ import App from './modules/App'
 import Home from './modules/Home'
 
 import FeedWordMonster from './modules/projects/feedwordmonster/FeedWordMonster'
-import StubmunkSentence from './modules/projects/StubmunkSentence'
+import StubmunkSentence from './modules/projects/stubmunksentence/StubmunkSentence'
 
 
 //import 'react-mdl/extra/material.css'; //Now using Google's MDL because I don't want to use React Layout for now

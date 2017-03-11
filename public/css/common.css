@@ -17,3 +17,10 @@ a{
 	border-color: red;
 	border-style: dotted;
 }
+
+.container{
+	width:80%;
+  max-width:1000px;
+  min-width:200px;
+  margin: auto;
+}

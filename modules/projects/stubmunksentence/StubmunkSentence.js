@@ -39,9 +39,9 @@ const detailedBody = 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur au
 
 export default React.createClass({
   render() {
-  	let title = 'Feed Word Monster' 
+  	let title = 'Stubmunk Sentence' 
   	let videoURL = "https://www.youtube.com/embed/VSopObQb8zk"
-  	let projectID = 'feedwordmonster' 
+  	let projectID = 'stubmunksentence' 
 
   	return <div>
   		<ProjectTemplate projectID={projectID} videoURL={videoURL}/>

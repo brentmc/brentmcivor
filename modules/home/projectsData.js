@@ -11,8 +11,8 @@ export const projectsAr = [
 	},
 	{
 		title:'Stubmunk Sentence',
-	//	thumb:'stubmunksentence',
-	//	link:'stubmunksentence'
+		thumb:'stubmunksentence',
+		link:'stubmunksentence'
 	},
 	{
 		title:'Sight Words App',

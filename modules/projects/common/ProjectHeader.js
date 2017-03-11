@@ -17,15 +17,6 @@ const sectionStyle = {
   zIndex: '200',
 }
 
-const CONTAINER_WIDTH = '80%'
-const containerStyle = {
-  width:CONTAINER_WIDTH,
-  maxWidth:'1000px',
-  minWidth:'200px',
-  margin: 'auto',
-}
-
-
 const gridStyle = {
 	width:'100%',
 //	height:'118px',
@@ -46,7 +37,7 @@ export default React.createClass({
 	render() {
 		return (
 			<section style={sectionStyle}>
- 				<div style={containerStyle} className='debug'>
+ 				<div  className='debug container'>
 					<Grid style ={gridStyle} className='debug'>
 						<Cell col={2} className='debug'>
 							<img src='/images/bm_logo.png'/>
