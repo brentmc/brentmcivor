@@ -12,12 +12,20 @@ import {
 	Cell
 } from 'react-mdl';
 
+//I want this page wider than each project page
+const homeContainerStyle = {
+	width:'100%',
+  maxWidth:'1500px',
+  minWidth:'200px',
+  margin: 'auto'
+}
+
 
 const Home = (props) => {
 	return (
 		<div>
 			<Header/>
-			<div style ={{width:'100%', margin:'auto'}}>
+			<div style={homeContainerStyle}>
 				<Grid>
 					{projectsAr.map(project => {
 						return (
