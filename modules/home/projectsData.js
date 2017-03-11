@@ -6,7 +6,7 @@ export const projectsAr = [
 	},
 	{
 		title:'Stubmunk Multiple Choice',
-	//	thumb:'stubmunkmultiplechoice',
+		thumb:'stubmunkmultiplechoice',
 		//link:'stubmunkmultiplechoice'
 	},
 	{
@@ -16,7 +16,7 @@ export const projectsAr = [
 	},
 	{
 		title:'Sight Words App',
-		//thumb:'sightwordsapp',
+		thumb:'sightwordsapp',
 		//link:'sightwordsapp'
 	},
 	{
@@ -31,57 +31,57 @@ export const projectsAr = [
 	},
 	{
 		title:'Turtle Knock',
-		//thumb:'turtleknock',
+		thumb:'turtleknock',
 		//link:'turtleknock'
 	},
 	{
 		title:"Penpen's Express",
-		//thumb:'penpen',
+		thumb:'penpen',
 		//link:'penpen'
 	},		
 	{
 		title:'Sheep Bounce',
-		//thumb:'sheepbounce',
+		thumb:'sheepbounce',
 		//link:'sheepbounce'
 	},
 	{
 		title:'Block Stack',
-		//thumb:'blockstack',
+		thumb:'blockstack',
 		//link:'blockstack'
 	},
 	{
 		title:'Word Mania Multiplayer',
-		//thumb:'wordmaniamultiplayer',
+		thumb:'wordmaniamulti',
 		//link:'wordmaniamultiplayer'
 	},
 	{
 		title:'Donkey Dash',
-		//thumb:'donkeydash',
+		thumb:'donkeydash',
 		//link:'donkeydash'
 	},	
 	{
 		title:'Treasure Crab',
-		//thumb:'treasurecrab',
+		thumb:'treasurecrab',
 		//link:'treasurecrab'
 	},
 	{
 		title:'Whack A Pirate',
-		//thumb:'whackapirate',
+		thumb:'whackapirate',
 		//link:'whackapirate'
 	},	
 	{
 		title:'Breakout Penguin',
-		//thumb:'breakoutpenguin',
+		thumb:'breakoutpenguin',
 		//link:'breakoutpenguin'
 	},	
 	{
-		title:'Word Mania Aus 2012',
+		title:'Word Mania Australia 2012',
 		//thumb:'wordmaniaau12',
 		//link:'wordmaniaau12'
 	},
 	{
-		title:'Word Mania Aus 2013',
-		//thumb:'wordmaniaau13',
+		title:'Word Mania Australia 2013',
+		thumb:'wmau13',
 		//link:'wordmaniaau13'
 	},	
 	{
@@ -90,13 +90,13 @@ export const projectsAr = [
 		//link:'wordmaniamy14'
 	},
 	{
-		title:'Word Mania Aus 2015',
+		title:'Word Mania Australia 2015',
 		//thumb:'wordmaniaau15',
 		//link:'wordmaniaau15'
 	},
 	{
-		title:'Word Mania Aus 2016',
-		//thumb:'wordmaniaau16',
+		title:'Word Mania Australia 2016',
+		thumb:'wmau16',
 		//link:'wordmaniaau16'
 	},
 	{		
@@ -116,77 +116,77 @@ export const projectsAr = [
 	},	
 	{
 		title:'Prize Wheel',
-		//thumb:'prizewheel',
+		thumb:'prizewheel',
 		//link:'prizewheel'
 	},	
 	{
-		title:'Spelling 01',
-		//thumb:'spelling01',
+		title:'Alphabetical Word Monster',
+		thumb:'alphabeticalwordmonster',
 		//link:'spelling01'
 	},
 	{
-		title:'Spelling 02',
-		//thumb:'spelling02',
+		title:'Word Order',
+		thumb:'wordorder',
 		//link:'spelling02'
 	},
 	{
-		title:'Spelling 03',
-		//thumb:'spelling03',
+		title:'Static Words',
+		thumb:'staticwords',
 		//link:'spelling03'
 	},
 	{
-		title:'Spelling 04',
-		//thumb:'spelling04',
+		title:'Memory Game',
+		thumb:'memorygame',
 		//link:'spelling04'
 	},
 	{
-		title:'Spelling 05',
-		//thumb:'spelling05',
+		title:'Snap',
+		thumb:'snap',
 		//link:'spelling05'
 	},
 	{
-		title:'Spelling 06',
-		//thumb:'spelling06',
+		title:'Floating Words',
+		thumb:'floatingwords',
 		//link:'spelling06'
 	},
 	{
-		title:'Spelling 07',
-		//thumb:'spelling07',
+		title:'Word Finder',
+		thumb:'wordfinder',
 		//link:'spelling07'
 	},
 	{
-		title:'Spelling 08',
-		//thumb:'spelling08',
+		title:'Word Builder 1',
+		thumb:'wordbuilder1',
 		//link:'spelling08'
 	},
 	{
-		title:'Spelling 09',
-		//thumb:'spelling09',
+		title:'Word Builder 2',
+		thumb:'wordbuilder2',
 		//link:'spelling09'
 	},
 	{
-		title:'Spelling 10',
-		//thumb:'spelling10',
+		title:'Jigsaw',
+		thumb:'jigsaw',
 		//link:'spelling10'
 	},
 	{
-		title:'Spelling 11',
-		//thumb:'spelling11',
+		title:'Spell This Word',
+		thumb:'spellthisword',
 		//link:'spelling11'
 	},
 	{
-		title:'Spelling 12',
-		//thumb:'spelling12',
+		title:'Sentence Jumble',
+		thumb:'sentencejumble',
 		//link:'spelling12'
 	},
 	{
-		title:'Spelling 13',
-		//thumb:'spelling13',
+		title:'dictation',
+		thumb:'dictation',
 		//link:'spelling13'
 	},
 	{
-		title:'Spelling 14',
-		//thumb:'spelling14',
+		title:'Flash Card',
+		thumb:'flashcard',
 		//link:'spelling14'
 	},
 	{
