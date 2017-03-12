@@ -33,10 +33,7 @@ const videoStyle = {
   //frameborder:'0',
 }
 
-const VideoSection = (props) => {
-	return (
-		<section style={videoSectionStyle}>
-      <div className='container debug'>
+/*  <div className='container debug'>
         <iframe className='debug'
           style={videoStyle}
           src={props.videoURL}
@@ -44,7 +41,43 @@ const VideoSection = (props) => {
           allowFullScreen         
         >
         </iframe>
+      </div>*/
+
+
+const videoWrapper = {
+  position: 'relative',
+  paddingBottom: '56.25%', /* 16:9 */
+  paddingTop: '25px',
+  height: '0',
+ // marginTop
+}
+
+const iframe = {
+  position: 'absolute',
+  top: '0',
+  left: '0',
+  width: '100%',
+  height: '100%',
+}
+
+
+const VideoSection = (props) => {
+	return (
+		<section style={videoSectionStyle}>
+      <div className='container'>
+        <div style={videoWrapper}>
+
+           <iframe style={iframe} 
+           width="560" 
+           height="349" 
+           src={props.videoURL}
+           frameBorder="0" 
+           allowFullScreen></iframe>
+        </div>
       </div>
+
+
+    
     </section>
 	)
 }
