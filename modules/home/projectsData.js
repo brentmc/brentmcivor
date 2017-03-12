@@ -7,7 +7,7 @@ export const projectsAr = [
 	{
 		title:'Stubmunk Multiple Choice',
 		thumb:'stubmunkmultiplechoice',
-		//link:'stubmunkmultiplechoice'
+		link:'stubmunkmultiplechoice'
 	},
 	{
 		title:'Stubmunk Sentence',
@@ -17,7 +17,7 @@ export const projectsAr = [
 	{
 		title:'Sight Words App',
 		thumb:'sightwordsapp',
-		//link:'sightwordsapp'
+		link:'sightwordsapp'
 	},
 	{
 		title:'LiteracyPlanet App',
@@ -32,47 +32,47 @@ export const projectsAr = [
 	{
 		title:'Turtle Knock',
 		thumb:'turtleknock',
-		//link:'turtleknock'
+		link:'turtleknock'
 	},
 	{
 		title:"Penpen's Express",
 		thumb:'penpen',
-		//link:'penpen'
+		link:'penpen'
 	},		
 	{
 		title:'Sheep Bounce',
 		thumb:'sheepbounce',
-		//link:'sheepbounce'
+		link:'sheepbounce'
 	},
 	{
 		title:'Block Stack',
 		thumb:'blockstack',
-		//link:'blockstack'
+		link:'blockstack'
 	},
 	{
 		title:'Word Mania Multiplayer',
 		thumb:'wordmaniamulti',
-		//link:'wordmaniamultiplayer'
+		link:'wordmaniamulti'
 	},
 	{
 		title:'Donkey Dash',
 		thumb:'donkeydash',
-		//link:'donkeydash'
+		link:'donkeydash'
 	},	
 	{
 		title:'Treasure Crab',
 		thumb:'treasurecrab',
-		//link:'treasurecrab'
+		link:'treasurecrab'
 	},
 	{
 		title:'Whack A Pirate',
 		thumb:'whackapirate',
-		//link:'whackapirate'
+		link:'whackapirate'
 	},	
 	{
 		title:'Breakout Penguin',
 		thumb:'breakoutpenguin',
-		//link:'breakoutpenguin'
+		link:'breakoutpenguin'
 	},	
 	{
 		title:'Word Mania Australia 2012',
@@ -82,7 +82,7 @@ export const projectsAr = [
 	{
 		title:'Word Mania Australia 2013',
 		thumb:'wmau13',
-		//link:'wordmaniaau13'
+		link:'wmau13'
 	},	
 	{
 		title:'Word Mania Malaysia 2014',
@@ -97,7 +97,7 @@ export const projectsAr = [
 	{
 		title:'Word Mania Australia 2016',
 		thumb:'wmau16',
-		//link:'wordmaniaau16'
+		link:'wmau16'
 	},
 	{		
 		title:'Word Mania UK 2017',
@@ -117,77 +117,77 @@ export const projectsAr = [
 	{
 		title:'Prize Wheel',
 		thumb:'prizewheel',
-		//link:'prizewheel'
+		link:'prizewheel'
 	},	
 	{
 		title:'Alphabetical Word Monster',
 		thumb:'alphabeticalwordmonster',
-		//link:'spelling01'
+		link:'alphabeticalwordmonster'
 	},
 	{
 		title:'Word Order',
 		thumb:'wordorder',
-		//link:'spelling02'
+		link:'wordorder'
 	},
 	{
 		title:'Static Words',
 		thumb:'staticwords',
-		//link:'spelling03'
+		link:'staticwords'
 	},
 	{
 		title:'Memory Game',
 		thumb:'memorygame',
-		//link:'spelling04'
+		link:'memorygame'
 	},
 	{
 		title:'Snap',
 		thumb:'snap',
-		//link:'spelling05'
+		link:'snap'
 	},
 	{
 		title:'Floating Words',
 		thumb:'floatingwords',
-		//link:'spelling06'
+		link:'floatingwords'
 	},
 	{
 		title:'Word Finder',
 		thumb:'wordfinder',
-		//link:'spelling07'
+		link:'wordfinder'
 	},
 	{
 		title:'Word Builder 1',
 		thumb:'wordbuilder1',
-		//link:'spelling08'
+		link:'wordbuilder1'
 	},
 	{
 		title:'Word Builder 2',
 		thumb:'wordbuilder2',
-		//link:'spelling09'
+		link:'wordbuilder2'
 	},
 	{
 		title:'Jigsaw',
 		thumb:'jigsaw',
-		//link:'spelling10'
+		link:'jigsaw'
 	},
 	{
 		title:'Spell This Word',
 		thumb:'spellthisword',
-		//link:'spelling11'
+		link:'spellthisword'
 	},
 	{
 		title:'Sentence Jumble',
 		thumb:'sentencejumble',
-		//link:'spelling12'
+		link:'sentencejumble'
 	},
 	{
-		title:'dictation',
+		title:'Dictation',
 		thumb:'dictation',
-		//link:'spelling13'
+		link:'dictation'
 	},
 	{
 		title:'Flash Card',
 		thumb:'flashcard',
-		//link:'spelling14'
+		link:'flashcard'
 	},
 	{
 		title:'Compre ICE',
