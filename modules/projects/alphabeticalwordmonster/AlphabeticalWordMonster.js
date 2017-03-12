@@ -3,6 +3,10 @@ import React from 'react'
 import ProjectTemplate from '../common/ProjectTemplate'
 import SkillsSection from '../common/SkillsSection'
 
+const summaryHeader = "Summary Header"
+const summaryBody = "Summary Body"
+const summaryObj = {summaryHeader, summaryBody}
+
 export default React.createClass({
   render() {
   	let title = 'Alphabetical Word Monster' 
@@ -10,7 +14,7 @@ export default React.createClass({
   	let projectID = 'alphabeticalwordmonster' 
 
   	return <div>
-  		<ProjectTemplate projectID={projectID} videoURL={videoURL}/>
+  		<ProjectTemplate title={title} projectID={projectID} summaryObj={summaryObj} videoURL={videoURL}/>
 
 
       <SkillsSection/>

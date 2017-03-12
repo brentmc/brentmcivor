@@ -6,13 +6,13 @@ import SummarySection from '../common/SummarySection'
 import VideoSection from '../common/VideoSection'
 
 
-const ProjectTemplate = (props) => {
+const ProjectTemplate = ({title, projectID, summaryObj, videoURL}) => {
     return (
       <div>
         <ProjectHeader/>
-        <BigImage projectID={props.projectID}/>
-        <SummarySection/>
-        <VideoSection videoURL={props.videoURL}/>
+        <BigImage title={title} projectID={projectID}/>
+        <SummarySection summaryObj={summaryObj}/>
+        <VideoSection videoURL={videoURL}/>
      </div>
   )
 }

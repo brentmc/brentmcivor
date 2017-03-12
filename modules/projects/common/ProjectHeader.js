@@ -9,49 +9,45 @@ import {
 
 const sectionStyle = {
 	width:'100%',
-	height:'118px',
-	//background: 'rgba(255, 255, 255, 0.6)',
-	background: 'rgba(0, 255, 24, 0.8)',
+	minHeight:'118px',
+	//background: 'rgba(51, 51, 51, 0.6)', 			//#333333
+	background: 'rgba(204, 204, 204, 0.6)',			//#cccccc
+	//background: 'rgba(255, 255, 255, 0.6)',	//white
+	//background: 'rgba(0, 255, 24, 0.8)',			//debug green
 	position: 'absolute',
   left: '0px',
   top: '0px',
   zIndex: '200',
 
-  borderColor: 'blue',
-	borderStyle: 'dashed',
+//  borderColor: 'blue',
+//	borderStyle: 'dashed',
 }
 
-const gridStyle = {
+//const gridStyle = {
 	//width:'100%',
 //	height:'118px',
-
-	borderColor: 'green',
-	borderStyle: 'dotted',
-}
+//	borderColor: 'green',
+//	borderStyle: 'dotted',
+//}
 
 const logoStyle = {
-	//float:'clear'
 	marginTop: '15px'
 }
-
 
 const nameStyle = {
 	color:'#fff',
 	fontSize:'64px',
-	//textAlign:'center',
-	//textShadow: '0px 2px 3px rgba(0, 0, 0, 0.1)',
+	textShadow: '2px 2px 4px rgba(0, 0, 0, 0.8)',
 	//letterSpacing: '0.15em',
-	//textTransform: 'uppercase',
-	borderColor: 'green',
-	borderStyle: 'dotted',
+	textTransform: 'uppercase',	
 	textAlign: 'center',
-//	position:'absolute',
+	//position:'absolute',
 	//top: '25px',
 	marginTop:'-70px',
 	lineHeight:'65px',
 
-
-
+	//borderColor: 'green',
+	//borderStyle: 'dotted',
 }
 
 /*
@@ -75,19 +71,12 @@ const nameStyle = {
 export default React.createClass({
 	render() {
 		return (
-			<section style={sectionStyle}>
- 			
- 				<div className='debug container'>
-
-							<img src='/images/bm_logo.png' style={logoStyle} className='debug'/>
-
-
-
-							<p style={nameStyle} >
-								<strong>Brent McIvor</strong>
-
-							</p>   
-
+			<section style={sectionStyle}> 			
+ 				<div className='container'>
+					<img src='/images/bm_logo.png' style={logoStyle}/>
+					<p style={nameStyle} >
+						<strong>Brent McIvor</strong>
+					</p>   
 				</div>	
 			</section>				
 		)
