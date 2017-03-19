@@ -23,11 +23,22 @@ const iframe = {
   height: '100%',
 }
 
+/**
+ * I was having trouble adding top and bottom padding to the video wrapper
+ * because of the other css magic I added. So I've added these bars above and below
+ * the video instead
+ */
+const videoBar = {
+  width:'100%',
+  height:'100px',
+  backgroundColor:'#3b3b3b'
+}
 
 const VideoSection = (props) => {
 	return (
 		<section style={videoSectionStyle}>
       <div className='container'>
+        <div style={videoBar}/>
         <div style={videoWrapper}>
 
            <iframe style={iframe} 
@@ -37,6 +48,7 @@ const VideoSection = (props) => {
            frameBorder="0" 
            allowFullScreen></iframe>
         </div>
+        <div style={videoBar}/>
       </div>
 
 
