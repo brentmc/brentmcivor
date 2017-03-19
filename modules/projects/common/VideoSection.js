@@ -1,7 +1,7 @@
 import React from 'react'
 
 const videoSectionStyle = {
-  backgroundColor:'#666666',
+  backgroundColor:'#3b3b3b',
 }
 
 /*

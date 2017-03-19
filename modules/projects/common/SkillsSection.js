@@ -5,7 +5,6 @@ import SkillChip from './SkillChip';
 const skillsSectionStyle = {
   width:'100%',
   minHeight:'150px',
-  //margin:'auto',
   backgroundColor:'#009bf2'
 }
 

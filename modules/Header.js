@@ -7,95 +7,50 @@ import {
 
 const bannerStyle = {
 	width:'100%',
-	height:'30px',
-	backgroundColor: '#2196f3'
+	minHeight:'50px',
+	backgroundColor: '#3b3b3b'
 }
 
-const brandingStyle = {
-	margin: 'auto',
-  textAlign:'center',
-  marginTop:'30px',
-	marginBottom: '30px'
+const brandStyle = {
+	width:'90%',
+	maxWidth:'600px',
+	margin:'auto',
+	paddingTop:'15px',
+	paddingBotton:'15px'
 }
 
 const nameStyle = {
-	paddingBottom: '0px',
-	margin: '0px',
-	textShadow: '0px 2px 3px rgba(0, 0, 0, 0.1)',
-	letterSpacing: '0.15em',
+	fontSize: '30px',
 	textTransform: 'uppercase',
-	color:'#4b4d51',
+	color:'#009bf2',
+	fontFamily:"'Acumin Pro', 'Arial",
+	lineHeight:'42px',
+	padding:'100px',
+	'margin':'100px'
 }
 
 const roleStyle = {
-	paddingBottom: '-150px',
-	margin: '-10px',
-	textShadow: '0px 1px 1px rgba(0, 0, 0, 0.2)',
-	fontSize: '22px',
-	letterSpacing: '0.25em',
+	fontSize: '30px',
 	textTransform: 'uppercase',
-	color:'#4b4d51',
-}
-
-const dividerStyle = {
-	marginTop: '20px',
-	borderTop: '1px solid rgba(0, 0, 0, 0.1)',
-	borderBottom: '1px solid rgba(255, 255, 255, 1)',
-}
-
-const socialBtnStyle = {
-	width:'20px',
-	height:'20px',
-}
-
-const SocialBtn = ({link, img, alt}) => {
-	return (
-		<Cell col={6} tablet={4} phone={2}>
-			<a target="_blank" href={link} style={socialBtnStyle}>
-	    	<img src={img} alt={alt}/>
-	    </a>
-	  </Cell>
-	)
+	color:'#fff',
+	fontFamily:"'Acumin Pro', 'Arial",
+	lineHeight:'42px',
 }
 
 export default React.createClass({
 	render() {
 		return (
-			<div>
-				<div style={bannerStyle}/>
-
-				<header style={brandingStyle}>	   	
-					<section>					
-						<h1 style={nameStyle}>
-							<a href='/'>
-								<strong>Brent McIvor</strong>
-							</a>
-						</h1>		
-
-						<h3 style={roleStyle}>
-							<a href='/'>
-								Educational Game Developer
-							</a>
-						</h3>
-					</section>
-
-					<hr width='100%' style={dividerStyle}/>
-
-					<div style={{width: '130px', margin: 'auto'}}>
-						<Grid>
-							<SocialBtn 
-				    		link='https://github.com/brentmc' 
-				    		img='./images/social/github.png' 
-				    		alt='GitHub'
-				    	/>
-				    	<SocialBtn 
-				    		link='http://www.linkedin.com/in/brentmcivor' 
-				    		img='./images/social/linkedin.png' 
-				    		alt='LinkedIn'
-				    	/>
-						</Grid>	   
+			<div style={bannerStyle}>
+				<a href='/'>
+					<div className='center' style={brandStyle}>
+						<strong>
+							<i>
+								<span className='' style={nameStyle}>Brent McIvor </span>
+								<span className='' style={roleStyle}>Developer</span>
+							</i>
+						</strong>	
 					</div>
-				</header>    
+				</a>
 			</div>
 		)
 	}

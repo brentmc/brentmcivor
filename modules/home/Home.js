@@ -1,8 +1,10 @@
 import React from 'react'
-import ProjectCard from './ProjectCard' 
-import Header from './Header' 
 
-import {projectsAr} from './home/projectsData'
+import Header from '../Header' 
+
+import Intro from './Intro'
+import ProjectCard from './ProjectCard' 
+import {projectsAr} from './projectsData'
 
 import { 
 	Footer,
@@ -20,11 +22,10 @@ const homeContainerStyle = {
   margin: 'auto'
 }
 
-
 const Home = (props) => {
 	return (
-		<div>
-			<Header/>
+		<div>			
+			<Intro/>
 			<div style={homeContainerStyle}>
 				<Grid>
 					{projectsAr.map(project => {

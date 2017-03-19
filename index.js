@@ -3,7 +3,7 @@ import { render } from 'react-dom'
 import { Router, Route, browserHistory, IndexRoute } from 'react-router'
 
 import App from './modules/App'
-import Home from './modules/Home'
+import Home from './modules/home/Home'
 
 //Projects
 import AlphabeticalWordMonster from './modules/projects/alphabeticalwordmonster/AlphabeticalWordMonster'

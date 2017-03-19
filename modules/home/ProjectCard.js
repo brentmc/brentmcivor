@@ -64,10 +64,10 @@ const ProjectCard = ({project}) => {
   let link = project.link ? project.link : '/'
   let skills = ['Entity Component System', 'ActionScript 3', 'JavaScript', 'iOS', 'Android', 'Browser', 'PixiJS', 'Cordova'].join(', ')
 
-  console.log('----------')
-  console.log('title:', title)
-  console.log('thumbURL:', thumbURL)
-  console.log('link:', link)
+  //console.log('----------')
+  //console.log('title:', title)
+  //console.log('thumbURL:', thumbURL)
+  //console.log('link:', link)
 
   return (
     <a href={link}>

@@ -7,10 +7,7 @@ export default React.createClass({
   render() {
     return (
       <div>
-        
-        
-
-        {/* add this */}
+        <Header/>
         {this.props.children}
         <Footer/>
       </div>
