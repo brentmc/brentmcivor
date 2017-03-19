@@ -1,5 +1,7 @@
 import React from 'react'
 
+import Video from './Video'
+
 const videoSectionStyle = {
   backgroundColor:'#3b3b3b',
 }
@@ -35,24 +37,15 @@ const videoBar = {
 }
 
 const VideoSection = (props) => {
+  let videoID = 'VSopObQb8zk'
+
 	return (
 		<section style={videoSectionStyle}>
       <div className='container'>
         <div style={videoBar}/>
-        <div style={videoWrapper}>
-
-           <iframe style={iframe} 
-           width="560" 
-           height="349" 
-           src={props.videoURL}
-           frameBorder="0" 
-           allowFullScreen></iframe>
-        </div>
+        <Video videoID={videoID}/>
         <div style={videoBar}/>
-      </div>
-
-
-    
+      </div>    
     </section>
 	)
 }
