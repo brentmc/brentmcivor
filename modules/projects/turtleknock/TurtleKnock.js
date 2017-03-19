@@ -10,7 +10,7 @@ export default React.createClass({
   	let projectID = 'turtleknock' 
 
   	return <div>
-  		<ProjectTemplate projectID={projectID} videoURL={videoURL}/>
+  		<ProjectTemplate title={title} projectID={projectID} videoURL={videoURL}/>
 
 
       <SkillsSection/>

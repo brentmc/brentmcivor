@@ -34,10 +34,6 @@ const detailedImgStyle = {
   marginBottom:'40px'
 }
 
-const summaryHeader = "Word Monster is back!"
-const summaryBody = "Word Monster is back again and in this game we wanted to remove as many distractions from the game as possible."
-const summaryObj = {summaryHeader, summaryBody}
-
 const detailedHeader = 'Perfection. Absolute.'
 const detailedBody = 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.'
 
@@ -55,8 +51,7 @@ export default React.createClass({
   	let projectID = 'feedwordmonster' 
 
   	return <div>
-  		<ProjectTemplate title={title} projectID={projectID} summaryObj={summaryObj} videoURL={videoURL}/>
-
+  		<ProjectTemplate title={title} projectID={projectID} videoURL={videoURL}/>
   		{/*This part may be different for each project*/}
   		<section>
       	<div className='container'>

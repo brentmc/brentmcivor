@@ -44,7 +44,7 @@ export default React.createClass({
   	let projectID = 'stubmunksentence' 
 
   	return <div>
-  		<ProjectTemplate projectID={projectID} videoURL={videoURL}/>
+  		<ProjectTemplate title={title} projectID={projectID} videoURL={videoURL}/>
 
   		{/*This part may be different for each project*/}
   		<section>
